@@ -2,8 +2,8 @@ require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class Zoom < OmniAuth::Strategies::OAuth2
-      option :name, 'zoom'
+    class Zoomadmin < OmniAuth::Strategies::OAuth2
+      option :name, 'zoomadmin'
 
       option :client_options, {
         token_url: "/oauth/token",
